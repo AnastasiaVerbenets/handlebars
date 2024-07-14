@@ -1,0 +1,12 @@
+{{#each this}}
+<li class="composer__card">
+    <div class="composer__thumb">
+        <img src="{{img}}" alt="{{name}}" width="320">
+    </div>
+    <h2>{{name}}</h2>
+    <p><b>Years of life:</b> {{years}}</p>
+    <p><b>The most outstanding composition:</b> <a href="{{linkComposition}}">{{composition}}</a></p>
+    <p><b>Main style:</b> {{style}}</p>
+    <p><b>Nationality:</b> {{nationality}}</p>
+</li>
+{{/each}}
